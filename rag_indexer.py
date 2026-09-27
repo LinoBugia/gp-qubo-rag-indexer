@@ -512,6 +512,11 @@ def build_index(
         "partitioning": {
             "algorithm": "recursive_bisection_qubo_digital_annealing",
             "solver": solver,
+            # Zielfunktion und Knoten-Repraesentation gehoeren hier hin: ein
+            # knn-Index ist sonst von einem gram-Index nicht zu unterscheiden,
+            # und ohne `anchors` weiss der Leser nicht, wonach der Beam scort.
+            "objective": objective,
+            "anchors": anchors,
             "g": g,
             "steps": steps,
             "num_mc": num_mc,
