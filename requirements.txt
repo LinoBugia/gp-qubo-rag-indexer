@@ -1,0 +1,2 @@
+numpy>=1.24
+customtkinter>=5.2   # nur für rag_gui.py

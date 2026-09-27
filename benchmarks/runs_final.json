@@ -1,0 +1,742 @@
+[
+ {
+  "kb": "RefKB_bge-m3",
+  "variant": "m-lloyd",
+  "ok": true,
+  "seconds": 23.8,
+  "index": "reference-kb/RefKB_bge-m3/bench_m-lloyd",
+  "args": [
+   "--no-anneal",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_bge-m3",
+  "variant": "m-da",
+  "ok": true,
+  "seconds": 235.3,
+  "index": "reference-kb/RefKB_bge-m3/bench_m-da",
+  "args": [
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_bge-m3",
+  "variant": "m-dablind",
+  "ok": true,
+  "seconds": 237.7,
+  "index": "reference-kb/RefKB_bge-m3/bench_m-dablind",
+  "args": [
+   "--iterations-lloyd",
+   "0",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_bge-m3",
+  "variant": "knn-da",
+  "ok": true,
+  "seconds": 234.8,
+  "index": "reference-kb/RefKB_bge-m3/bench_knn-da",
+  "args": [
+   "--objective",
+   "knn",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_bge-m3",
+  "variant": "knn-dablind",
+  "ok": true,
+  "seconds": 247.2,
+  "index": "reference-kb/RefKB_bge-m3/bench_knn-dablind",
+  "args": [
+   "--objective",
+   "knn",
+   "--iterations-lloyd",
+   "0",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_qwen3-embedding-4b-fp16",
+  "variant": "m-lloyd",
+  "ok": true,
+  "seconds": 50.5,
+  "index": "reference-kb/RefKB_qwen3-embedding-4b-fp16/bench_m-lloyd",
+  "args": [
+   "--no-anneal",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_qwen3-embedding-4b-fp16",
+  "variant": "m-da",
+  "ok": true,
+  "seconds": 284.3,
+  "index": "reference-kb/RefKB_qwen3-embedding-4b-fp16/bench_m-da",
+  "args": [
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_qwen3-embedding-4b-fp16",
+  "variant": "m-dablind",
+  "ok": true,
+  "seconds": 289.0,
+  "index": "reference-kb/RefKB_qwen3-embedding-4b-fp16/bench_m-dablind",
+  "args": [
+   "--iterations-lloyd",
+   "0",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_qwen3-embedding-4b-fp16",
+  "variant": "knn-da",
+  "ok": true,
+  "seconds": 287.5,
+  "index": "reference-kb/RefKB_qwen3-embedding-4b-fp16/bench_knn-da",
+  "args": [
+   "--objective",
+   "knn",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_qwen3-embedding-4b-fp16",
+  "variant": "knn-dablind",
+  "ok": true,
+  "seconds": 283.6,
+  "index": "reference-kb/RefKB_qwen3-embedding-4b-fp16/bench_knn-dablind",
+  "args": [
+   "--objective",
+   "knn",
+   "--iterations-lloyd",
+   "0",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_bge-m3_n500",
+  "variant": "m-lloyd",
+  "ok": true,
+  "seconds": 5.7,
+  "index": "reference-kb/subsets/RefKB_bge-m3_n500/bench_m-lloyd",
+  "args": [
+   "--no-anneal",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_bge-m3_n500",
+  "variant": "m-da",
+  "ok": true,
+  "seconds": 25.7,
+  "index": "reference-kb/subsets/RefKB_bge-m3_n500/bench_m-da",
+  "args": [
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_bge-m3_n500",
+  "variant": "m-dablind",
+  "ok": true,
+  "seconds": 26.7,
+  "index": "reference-kb/subsets/RefKB_bge-m3_n500/bench_m-dablind",
+  "args": [
+   "--iterations-lloyd",
+   "0",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_bge-m3_n500",
+  "variant": "knn-da",
+  "ok": true,
+  "seconds": 25.4,
+  "index": "reference-kb/subsets/RefKB_bge-m3_n500/bench_knn-da",
+  "args": [
+   "--objective",
+   "knn",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_bge-m3_n500",
+  "variant": "knn-dablind",
+  "ok": true,
+  "seconds": 24.8,
+  "index": "reference-kb/subsets/RefKB_bge-m3_n500/bench_knn-dablind",
+  "args": [
+   "--objective",
+   "knn",
+   "--iterations-lloyd",
+   "0",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_bge-m3_n1000",
+  "variant": "m-lloyd",
+  "ok": true,
+  "seconds": 8.1,
+  "index": "reference-kb/subsets/RefKB_bge-m3_n1000/bench_m-lloyd",
+  "args": [
+   "--no-anneal",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_bge-m3_n1000",
+  "variant": "m-da",
+  "ok": true,
+  "seconds": 51.0,
+  "index": "reference-kb/subsets/RefKB_bge-m3_n1000/bench_m-da",
+  "args": [
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_bge-m3_n1000",
+  "variant": "m-dablind",
+  "ok": true,
+  "seconds": 47.9,
+  "index": "reference-kb/subsets/RefKB_bge-m3_n1000/bench_m-dablind",
+  "args": [
+   "--iterations-lloyd",
+   "0",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_bge-m3_n1000",
+  "variant": "knn-da",
+  "ok": true,
+  "seconds": 47.8,
+  "index": "reference-kb/subsets/RefKB_bge-m3_n1000/bench_knn-da",
+  "args": [
+   "--objective",
+   "knn",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_bge-m3_n1000",
+  "variant": "knn-dablind",
+  "ok": true,
+  "seconds": 46.9,
+  "index": "reference-kb/subsets/RefKB_bge-m3_n1000/bench_knn-dablind",
+  "args": [
+   "--objective",
+   "knn",
+   "--iterations-lloyd",
+   "0",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_bge-m3_n1500",
+  "variant": "m-lloyd",
+  "ok": true,
+  "seconds": 9.3,
+  "index": "reference-kb/subsets/RefKB_bge-m3_n1500/bench_m-lloyd",
+  "args": [
+   "--no-anneal",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_bge-m3_n1500",
+  "variant": "m-da",
+  "ok": true,
+  "seconds": 79.4,
+  "index": "reference-kb/subsets/RefKB_bge-m3_n1500/bench_m-da",
+  "args": [
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_bge-m3_n1500",
+  "variant": "m-dablind",
+  "ok": true,
+  "seconds": 80.0,
+  "index": "reference-kb/subsets/RefKB_bge-m3_n1500/bench_m-dablind",
+  "args": [
+   "--iterations-lloyd",
+   "0",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_bge-m3_n1500",
+  "variant": "knn-da",
+  "ok": true,
+  "seconds": 78.9,
+  "index": "reference-kb/subsets/RefKB_bge-m3_n1500/bench_knn-da",
+  "args": [
+   "--objective",
+   "knn",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_bge-m3_n1500",
+  "variant": "knn-dablind",
+  "ok": true,
+  "seconds": 77.6,
+  "index": "reference-kb/subsets/RefKB_bge-m3_n1500/bench_knn-dablind",
+  "args": [
+   "--objective",
+   "knn",
+   "--iterations-lloyd",
+   "0",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_bge-m3_n2000",
+  "variant": "m-lloyd",
+  "ok": true,
+  "seconds": 15.6,
+  "index": "reference-kb/subsets/RefKB_bge-m3_n2000/bench_m-lloyd",
+  "args": [
+   "--no-anneal",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_bge-m3_n2000",
+  "variant": "m-da",
+  "ok": true,
+  "seconds": 114.2,
+  "index": "reference-kb/subsets/RefKB_bge-m3_n2000/bench_m-da",
+  "args": [
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_bge-m3_n2000",
+  "variant": "m-dablind",
+  "ok": true,
+  "seconds": 118.4,
+  "index": "reference-kb/subsets/RefKB_bge-m3_n2000/bench_m-dablind",
+  "args": [
+   "--iterations-lloyd",
+   "0",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_bge-m3_n2000",
+  "variant": "knn-da",
+  "ok": true,
+  "seconds": 115.2,
+  "index": "reference-kb/subsets/RefKB_bge-m3_n2000/bench_knn-da",
+  "args": [
+   "--objective",
+   "knn",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_bge-m3_n2000",
+  "variant": "knn-dablind",
+  "ok": true,
+  "seconds": 116.4,
+  "index": "reference-kb/subsets/RefKB_bge-m3_n2000/bench_knn-dablind",
+  "args": [
+   "--objective",
+   "knn",
+   "--iterations-lloyd",
+   "0",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_qwen3-embedding-4b-fp16_n500",
+  "variant": "m-lloyd",
+  "ok": true,
+  "seconds": 7.2,
+  "index": "reference-kb/subsets/RefKB_qwen3-embedding-4b-fp16_n500/bench_m-lloyd",
+  "args": [
+   "--no-anneal",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_qwen3-embedding-4b-fp16_n500",
+  "variant": "m-da",
+  "ok": true,
+  "seconds": 31.3,
+  "index": "reference-kb/subsets/RefKB_qwen3-embedding-4b-fp16_n500/bench_m-da",
+  "args": [
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_qwen3-embedding-4b-fp16_n500",
+  "variant": "m-dablind",
+  "ok": true,
+  "seconds": 29.3,
+  "index": "reference-kb/subsets/RefKB_qwen3-embedding-4b-fp16_n500/bench_m-dablind",
+  "args": [
+   "--iterations-lloyd",
+   "0",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_qwen3-embedding-4b-fp16_n500",
+  "variant": "knn-da",
+  "ok": true,
+  "seconds": 31.0,
+  "index": "reference-kb/subsets/RefKB_qwen3-embedding-4b-fp16_n500/bench_knn-da",
+  "args": [
+   "--objective",
+   "knn",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_qwen3-embedding-4b-fp16_n500",
+  "variant": "knn-dablind",
+  "ok": true,
+  "seconds": 29.7,
+  "index": "reference-kb/subsets/RefKB_qwen3-embedding-4b-fp16_n500/bench_knn-dablind",
+  "args": [
+   "--objective",
+   "knn",
+   "--iterations-lloyd",
+   "0",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_qwen3-embedding-4b-fp16_n1000",
+  "variant": "m-lloyd",
+  "ok": true,
+  "seconds": 11.9,
+  "index": "reference-kb/subsets/RefKB_qwen3-embedding-4b-fp16_n1000/bench_m-lloyd",
+  "args": [
+   "--no-anneal",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_qwen3-embedding-4b-fp16_n1000",
+  "variant": "m-da",
+  "ok": true,
+  "seconds": 56.9,
+  "index": "reference-kb/subsets/RefKB_qwen3-embedding-4b-fp16_n1000/bench_m-da",
+  "args": [
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_qwen3-embedding-4b-fp16_n1000",
+  "variant": "m-dablind",
+  "ok": true,
+  "seconds": 60.9,
+  "index": "reference-kb/subsets/RefKB_qwen3-embedding-4b-fp16_n1000/bench_m-dablind",
+  "args": [
+   "--iterations-lloyd",
+   "0",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_qwen3-embedding-4b-fp16_n1000",
+  "variant": "knn-da",
+  "ok": true,
+  "seconds": 60.7,
+  "index": "reference-kb/subsets/RefKB_qwen3-embedding-4b-fp16_n1000/bench_knn-da",
+  "args": [
+   "--objective",
+   "knn",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_qwen3-embedding-4b-fp16_n1000",
+  "variant": "knn-dablind",
+  "ok": true,
+  "seconds": 57.8,
+  "index": "reference-kb/subsets/RefKB_qwen3-embedding-4b-fp16_n1000/bench_knn-dablind",
+  "args": [
+   "--objective",
+   "knn",
+   "--iterations-lloyd",
+   "0",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_qwen3-embedding-4b-fp16_n1500",
+  "variant": "m-lloyd",
+  "ok": true,
+  "seconds": 17.2,
+  "index": "reference-kb/subsets/RefKB_qwen3-embedding-4b-fp16_n1500/bench_m-lloyd",
+  "args": [
+   "--no-anneal",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_qwen3-embedding-4b-fp16_n1500",
+  "variant": "m-da",
+  "ok": true,
+  "seconds": 96.5,
+  "index": "reference-kb/subsets/RefKB_qwen3-embedding-4b-fp16_n1500/bench_m-da",
+  "args": [
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_qwen3-embedding-4b-fp16_n1500",
+  "variant": "m-dablind",
+  "ok": true,
+  "seconds": 100.4,
+  "index": "reference-kb/subsets/RefKB_qwen3-embedding-4b-fp16_n1500/bench_m-dablind",
+  "args": [
+   "--iterations-lloyd",
+   "0",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_qwen3-embedding-4b-fp16_n1500",
+  "variant": "knn-da",
+  "ok": true,
+  "seconds": 94.8,
+  "index": "reference-kb/subsets/RefKB_qwen3-embedding-4b-fp16_n1500/bench_knn-da",
+  "args": [
+   "--objective",
+   "knn",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_qwen3-embedding-4b-fp16_n1500",
+  "variant": "knn-dablind",
+  "ok": true,
+  "seconds": 93.8,
+  "index": "reference-kb/subsets/RefKB_qwen3-embedding-4b-fp16_n1500/bench_knn-dablind",
+  "args": [
+   "--objective",
+   "knn",
+   "--iterations-lloyd",
+   "0",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_qwen3-embedding-4b-fp16_n2000",
+  "variant": "m-lloyd",
+  "ok": true,
+  "seconds": 25.1,
+  "index": "reference-kb/subsets/RefKB_qwen3-embedding-4b-fp16_n2000/bench_m-lloyd",
+  "args": [
+   "--no-anneal",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_qwen3-embedding-4b-fp16_n2000",
+  "variant": "m-da",
+  "ok": true,
+  "seconds": 138.9,
+  "index": "reference-kb/subsets/RefKB_qwen3-embedding-4b-fp16_n2000/bench_m-da",
+  "args": [
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_qwen3-embedding-4b-fp16_n2000",
+  "variant": "m-dablind",
+  "ok": true,
+  "seconds": 138.4,
+  "index": "reference-kb/subsets/RefKB_qwen3-embedding-4b-fp16_n2000/bench_m-dablind",
+  "args": [
+   "--iterations-lloyd",
+   "0",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_qwen3-embedding-4b-fp16_n2000",
+  "variant": "knn-da",
+  "ok": true,
+  "seconds": 120.0,
+  "index": "reference-kb/subsets/RefKB_qwen3-embedding-4b-fp16_n2000/bench_knn-da",
+  "args": [
+   "--objective",
+   "knn",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ },
+ {
+  "kb": "RefKB_qwen3-embedding-4b-fp16_n2000",
+  "variant": "knn-dablind",
+  "ok": true,
+  "seconds": 59.5,
+  "index": "reference-kb/subsets/RefKB_qwen3-embedding-4b-fp16_n2000/bench_knn-dablind",
+  "args": [
+   "--objective",
+   "knn",
+   "--iterations-lloyd",
+   "0",
+   "--split-mode",
+   "plane",
+   "--spill",
+   "0.05"
+  ]
+ }
+]

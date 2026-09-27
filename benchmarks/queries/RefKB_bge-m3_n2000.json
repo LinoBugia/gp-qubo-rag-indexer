@@ -1,0 +1,8 @@
+{
+ "kb": "RefKB_bge-m3_n2000",
+ "model": "bge-m3",
+ "dim": 1024,
+ "n_queries": 300,
+ "window": "60-80 % contiguous words",
+ "seed": 11
+}

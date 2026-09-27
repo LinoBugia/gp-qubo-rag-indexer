@@ -1,0 +1,40 @@
+__pycache__/
+*.pyc
+.DS_Store
+.xray/
+
+# ── Referenz-Wissensbasen ────────────────────────────────────────────────────
+# RefKB_bge-m3 (60 MB) liegt im Repo — jede Zahl in der README ist darauf
+# gemessen. Die qwen3-Variante ist mit 144 MB über GitHubs 100-MB-Grenze und
+# wird lokal reproduziert (RAG_INDEX_CONTRACT.md §8):
+#   python main.py --reembed reference-kb/RefKB_bge-m3 \
+#                  --out-dir reference-kb --out-name RefKB_qwen3-embedding-4b-fp16
+reference-kb/RefKB_qwen3-embedding-4b-fp16/
+
+# Teilmengen und gebaute Indexe: reproduzierbar aus benchmarks/, und jeder
+# Index trägt eine eigene Kopie der Embeddings (zusammen ~1.4 GB).
+#   python3 benchmarks/make_subsets.py reference-kb/RefKB_bge-m3 500 1000 1500 2000
+#   python3 benchmarks/run_matrix.py --kbs …
+reference-kb/subsets/
+reference-kb/**/rag_index_*/
+reference-kb/**/bench_*/
+
+# Die Messergebnisse selbst gehören ins Repo — nur die Rohindexe nicht:
+!benchmarks/results.json
+!benchmarks/runs.json
+benchmarks/matrix.log
+benchmarks/*.log
+benchmarks/REPORT.md
+
+# Query-Sätze: die für bge-m3 bleiben im Repo (die KB liegt bei, damit ist
+# der Benchmark ohne ollama nachvollziehbar). Die qwen3-Sätze wären ohne
+# ihre 144-MB-KB nutzlos und sind mit 2560d viermal so groß.
+benchmarks/queries/*qwen3*
+
+# example.py und clustering.py schreiben hierhin — erzeugte Dateien
+output/
+
+# Lokale Umgebung und lokale Agent-Einstellungen — enthalten Pfade dieser
+# Maschine und gehoeren niemandem sonst.
+.venv/
+.claude/settings.local.json

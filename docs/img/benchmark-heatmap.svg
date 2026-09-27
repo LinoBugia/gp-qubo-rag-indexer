@@ -1,0 +1,273 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="948" height="478" viewBox="0 0 948 478" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<rect width="948" height="478" rx="10" fill="#ffffff"/>
+<text x="20.0" y="28.0" font-size="15" fill="#0f172a" text-anchor="start" font-weight="650" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">Benchmark matrix — recall@5, beam 2</text>
+<text x="20.0" y="45.0" font-size="11.5" fill="#64748b" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">300 questions per column, identical for every row; columns differ in encoder and corpus size.</text>
+<text x="20.0" y="60.0" font-size="11.5" fill="#64748b" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">Each row names optimiser · boundary — the two independent axes.</text>
+<rect x="288" y="76" width="304" height="18" rx="5" fill="#4f46e5" opacity="0.13"/>
+<text x="440.0" y="89.0" font-size="11.5" fill="#4f46e5" text-anchor="middle" font-weight="700" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">bge-m3</text>
+<text x="316.0" y="108.0" font-size="10.5" fill="#64748b" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">529</text>
+<text x="378.0" y="108.0" font-size="10.5" fill="#64748b" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">1 028</text>
+<text x="440.0" y="108.0" font-size="10.5" fill="#64748b" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">1 590</text>
+<text x="502.0" y="108.0" font-size="10.5" fill="#64748b" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">2 195</text>
+<text x="564.0" y="108.0" font-size="10.5" fill="#64748b" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">4 178</text>
+<rect x="598" y="76" width="304" height="18" rx="5" fill="#4f46e5" opacity="0.13"/>
+<text x="750.0" y="89.0" font-size="11.5" fill="#4f46e5" text-anchor="middle" font-weight="700" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">qwen3-4b</text>
+<text x="626.0" y="108.0" font-size="10.5" fill="#64748b" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">529</text>
+<text x="688.0" y="108.0" font-size="10.5" fill="#64748b" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">1 028</text>
+<text x="750.0" y="108.0" font-size="10.5" fill="#64748b" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">1 590</text>
+<text x="812.0" y="108.0" font-size="10.5" fill="#64748b" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">2 195</text>
+<text x="874.0" y="108.0" font-size="10.5" fill="#64748b" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">4 178</text>
+<text x="276.0" y="133.0" font-size="11.5" fill="#0f172a" text-anchor="end" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">Lloyd · nearest centroid</text>
+<rect x="288" y="116" width="58" height="22" rx="4" fill="#3e876a"/>
+<text x="317.0" y="131.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">81</text>
+<rect x="350" y="116" width="58" height="22" rx="4" fill="#509379"/>
+<text x="379.0" y="131.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">78</text>
+<rect x="412" y="116" width="58" height="22" rx="4" fill="#9ac0b4"/>
+<text x="441.0" y="131.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">66</text>
+<rect x="474" y="116" width="58" height="22" rx="4" fill="#b2cec6"/>
+<text x="503.0" y="131.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">62</text>
+<rect x="536" y="116" width="58" height="22" rx="4" fill="#dee9ea"/>
+<text x="565.0" y="131.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">55</text>
+<rect x="598" y="116" width="58" height="22" rx="4" fill="#3d8769"/>
+<text x="627.0" y="131.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">81</text>
+<rect x="660" y="116" width="58" height="22" rx="4" fill="#247856"/>
+<text x="689.0" y="131.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">85</text>
+<rect x="722" y="116" width="58" height="22" rx="4" fill="#78ab99"/>
+<text x="751.0" y="131.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">71</text>
+<rect x="784" y="116" width="58" height="22" rx="4" fill="#86b3a4"/>
+<text x="813.0" y="131.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">69</text>
+<rect x="846" y="116" width="58" height="22" rx="4" fill="#a3c5bb"/>
+<text x="875.0" y="131.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">64</text>
+<text x="276.0" y="159.0" font-size="11.5" fill="#0f172a" text-anchor="end" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">DA · nearest centroid</text>
+<rect x="288" y="142" width="58" height="22" rx="4" fill="#328161"/>
+<text x="317.0" y="157.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">83</text>
+<rect x="350" y="142" width="58" height="22" rx="4" fill="#458c70"/>
+<text x="379.0" y="157.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">80</text>
+<rect x="412" y="142" width="58" height="22" rx="4" fill="#80b09f"/>
+<text x="441.0" y="157.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">70</text>
+<rect x="474" y="142" width="58" height="22" rx="4" fill="#a9c9c0"/>
+<text x="503.0" y="157.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">63</text>
+<rect x="536" y="142" width="58" height="22" rx="4" fill="#e3ecee"/>
+<text x="565.0" y="157.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">54</text>
+<rect x="598" y="142" width="58" height="22" rx="4" fill="#2e7e5e"/>
+<text x="627.0" y="157.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">84</text>
+<rect x="660" y="142" width="58" height="22" rx="4" fill="#267958"/>
+<text x="689.0" y="157.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">85</text>
+<rect x="722" y="142" width="58" height="22" rx="4" fill="#6da490"/>
+<text x="751.0" y="157.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">73</text>
+<rect x="784" y="142" width="58" height="22" rx="4" fill="#78ab99"/>
+<text x="813.0" y="157.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">71</text>
+<rect x="846" y="142" width="58" height="22" rx="4" fill="#b6d1ca"/>
+<text x="875.0" y="157.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">61</text>
+<text x="276.0" y="185.0" font-size="11.5" fill="#0f172a" text-anchor="end" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">DA · centroid plane</text>
+<rect x="288" y="168" width="58" height="22" rx="4" fill="#307f5f"/>
+<text x="317.0" y="183.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">83</text>
+<rect x="350" y="168" width="58" height="22" rx="4" fill="#4f9278"/>
+<text x="379.0" y="183.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">78</text>
+<rect x="412" y="168" width="58" height="22" rx="4" fill="#7cae9c"/>
+<text x="441.0" y="183.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">71</text>
+<rect x="474" y="168" width="58" height="22" rx="4" fill="#9bc0b4"/>
+<text x="503.0" y="183.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">66</text>
+<rect x="536" y="168" width="58" height="22" rx="4" fill="#d2e2e0"/>
+<text x="565.0" y="183.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">57</text>
+<rect x="598" y="168" width="58" height="22" rx="4" fill="#237755"/>
+<text x="627.0" y="183.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">85</text>
+<rect x="660" y="168" width="58" height="22" rx="4" fill="#227754"/>
+<text x="689.0" y="183.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">86</text>
+<rect x="722" y="168" width="58" height="22" rx="4" fill="#619d86"/>
+<text x="751.0" y="183.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">75</text>
+<rect x="784" y="168" width="58" height="22" rx="4" fill="#86b3a4"/>
+<text x="813.0" y="183.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">69</text>
+<rect x="846" y="168" width="58" height="22" rx="4" fill="#b1cec6"/>
+<text x="875.0" y="183.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">62</text>
+<text x="276.0" y="211.0" font-size="11.5" fill="#0f172a" text-anchor="end" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">DA · max-margin plane</text>
+<rect x="288" y="194" width="58" height="22" rx="4" fill="#2b7c5c"/>
+<text x="317.0" y="209.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">84</text>
+<rect x="350" y="194" width="58" height="22" rx="4" fill="#509379"/>
+<text x="379.0" y="209.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">78</text>
+<rect x="412" y="194" width="58" height="22" rx="4" fill="#85b3a3"/>
+<text x="441.0" y="209.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">69</text>
+<rect x="474" y="194" width="58" height="22" rx="4" fill="#9cc1b5"/>
+<text x="503.0" y="209.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">66</text>
+<rect x="536" y="194" width="58" height="22" rx="4" fill="#ccdedc"/>
+<text x="565.0" y="209.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">58</text>
+<rect x="598" y="194" width="58" height="22" rx="4" fill="#1c734f"/>
+<text x="627.0" y="209.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">87</text>
+<rect x="660" y="194" width="58" height="22" rx="4" fill="#227654"/>
+<text x="689.0" y="209.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">86</text>
+<rect x="722" y="194" width="58" height="22" rx="4" fill="#6ba38f"/>
+<text x="751.0" y="209.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">74</text>
+<rect x="784" y="194" width="58" height="22" rx="4" fill="#7eaf9e"/>
+<text x="813.0" y="209.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">70</text>
+<rect x="846" y="194" width="58" height="22" rx="4" fill="#abcac2"/>
+<text x="875.0" y="209.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">63</text>
+<text x="276.0" y="237.0" font-size="11.5" fill="#0f172a" text-anchor="end" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">Lloyd · plane + 10 %</text>
+<rect x="288" y="220" width="58" height="22" rx="4" fill="#3e876a"/>
+<text x="317.0" y="235.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">81</text>
+<rect x="350" y="220" width="58" height="22" rx="4" fill="#5e9b84"/>
+<text x="379.0" y="235.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">76</text>
+<rect x="412" y="220" width="58" height="22" rx="4" fill="#88b5a5"/>
+<text x="441.0" y="235.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">69</text>
+<rect x="474" y="220" width="58" height="22" rx="4" fill="#a4c6bc"/>
+<text x="503.0" y="235.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">64</text>
+<rect x="536" y="220" width="58" height="22" rx="4" fill="#c9ddd9"/>
+<text x="565.0" y="235.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">58</text>
+<rect x="598" y="220" width="58" height="22" rx="4" fill="#4a8f74"/>
+<text x="627.0" y="235.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">79</text>
+<rect x="660" y="220" width="58" height="22" rx="4" fill="#3c8769"/>
+<text x="689.0" y="235.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">81</text>
+<rect x="722" y="220" width="58" height="22" rx="4" fill="#6ea591"/>
+<text x="751.0" y="235.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">73</text>
+<rect x="784" y="220" width="58" height="22" rx="4" fill="#87b4a4"/>
+<text x="813.0" y="235.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">69</text>
+<rect x="846" y="220" width="58" height="22" rx="4" fill="#8bb7a8"/>
+<text x="875.0" y="235.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">68</text>
+<text x="276.0" y="263.0" font-size="11.5" fill="#0f172a" text-anchor="end" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">Lloyd ×4 · plane + 10 %</text>
+<rect x="288" y="246" width="58" height="22" rx="4" fill="#318060"/>
+<text x="317.0" y="261.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">83</text>
+<rect x="350" y="246" width="58" height="22" rx="4" fill="#4f9278"/>
+<text x="379.0" y="261.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">78</text>
+<rect x="412" y="246" width="58" height="22" rx="4" fill="#7aac9a"/>
+<text x="441.0" y="261.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">71</text>
+<rect x="474" y="246" width="58" height="22" rx="4" fill="#92bbae"/>
+<text x="503.0" y="261.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">67</text>
+<rect x="536" y="246" width="58" height="22" rx="4" fill="#c2d8d4"/>
+<text x="565.0" y="261.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">59</text>
+<rect x="598" y="246" width="58" height="22" rx="4" fill="#358263"/>
+<text x="627.0" y="261.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">83</text>
+<rect x="660" y="246" width="58" height="22" rx="4" fill="#287a59"/>
+<text x="689.0" y="261.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">85</text>
+<rect x="722" y="246" width="58" height="22" rx="4" fill="#6ba38e"/>
+<text x="751.0" y="261.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">74</text>
+<rect x="784" y="246" width="58" height="22" rx="4" fill="#78ab98"/>
+<text x="813.0" y="261.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">72</text>
+<rect x="846" y="246" width="58" height="22" rx="4" fill="#a6c7bd"/>
+<text x="875.0" y="261.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">64</text>
+<text x="276.0" y="289.0" font-size="11.5" fill="#0f172a" text-anchor="end" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">DA, no warm start · plane + 10 %</text>
+<rect x="288" y="272" width="58" height="22" rx="4" fill="#3e886b"/>
+<text x="317.0" y="287.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">81</text>
+<rect x="350" y="272" width="58" height="22" rx="4" fill="#76aa97"/>
+<text x="379.0" y="287.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">72</text>
+<rect x="412" y="272" width="58" height="22" rx="4" fill="#9fc3b8"/>
+<text x="441.0" y="287.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">65</text>
+<rect x="474" y="272" width="58" height="22" rx="4" fill="#afccc4"/>
+<text x="503.0" y="287.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">63</text>
+<rect x="536" y="272" width="58" height="22" rx="4" fill="#f1f5f9"/>
+<text x="565.0" y="287.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">52</text>
+<rect x="598" y="272" width="58" height="22" rx="4" fill="#348262"/>
+<text x="627.0" y="287.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">83</text>
+<rect x="660" y="272" width="58" height="22" rx="4" fill="#40896c"/>
+<text x="689.0" y="287.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">81</text>
+<rect x="722" y="272" width="58" height="22" rx="4" fill="#81b1a0"/>
+<text x="751.0" y="287.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">70</text>
+<rect x="784" y="272" width="58" height="22" rx="4" fill="#98bfb2"/>
+<text x="813.0" y="287.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">66</text>
+<rect x="846" y="272" width="58" height="22" rx="4" fill="#c0d7d2"/>
+<text x="875.0" y="287.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">60</text>
+<text x="276.0" y="315.0" font-size="11.5" fill="#0f172a" text-anchor="end" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">DA · centroid plane + 10 %</text>
+<rect x="288" y="298" width="58" height="22" rx="4" fill="#338161"/>
+<text x="317.0" y="313.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">83</text>
+<rect x="350" y="298" width="58" height="22" rx="4" fill="#468d71"/>
+<text x="379.0" y="313.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">80</text>
+<rect x="412" y="298" width="58" height="22" rx="4" fill="#7bad9b"/>
+<text x="441.0" y="313.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">71</text>
+<rect x="474" y="298" width="58" height="22" rx="4" fill="#94bcaf"/>
+<text x="503.0" y="313.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">67</text>
+<rect x="536" y="298" width="58" height="22" rx="4" fill="#b2cec7"/>
+<text x="565.0" y="313.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">62</text>
+<rect x="598" y="298" width="58" height="22" rx="4" fill="#2b7c5b"/>
+<text x="627.0" y="313.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">84</text>
+<rect x="660" y="298" width="58" height="22" rx="4" fill="#267957"/>
+<text x="689.0" y="313.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">85</text>
+<rect x="722" y="298" width="58" height="22" rx="4" fill="#4e9277"/>
+<text x="751.0" y="313.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">78</text>
+<rect x="784" y="298" width="58" height="22" rx="4" fill="#6aa28d"/>
+<text x="813.0" y="313.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">74</text>
+<rect x="846" y="298" width="58" height="22" rx="4" fill="#83b2a1"/>
+<text x="875.0" y="313.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">70</text>
+<text x="276.0" y="341.0" font-size="11.5" fill="#0f172a" text-anchor="end" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">DA · plane + 10 %  (default)</text>
+<rect x="288" y="324" width="58" height="22" rx="4" fill="#318060"/>
+<text x="317.0" y="339.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">83</text>
+<rect x="350" y="324" width="58" height="22" rx="4" fill="#488e73"/>
+<text x="379.0" y="339.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">79</text>
+<rect x="412" y="324" width="58" height="22" rx="4" fill="#7eaf9d"/>
+<text x="441.0" y="339.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">71</text>
+<rect x="474" y="324" width="58" height="22" rx="4" fill="#87b4a5"/>
+<text x="503.0" y="339.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">69</text>
+<rect x="536" y="324" width="58" height="22" rx="4" fill="#bdd5d0"/>
+<text x="565.0" y="339.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">60</text>
+<rect x="598" y="324" width="58" height="22" rx="4" fill="#378365"/>
+<text x="627.0" y="339.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">82</text>
+<rect x="660" y="324" width="58" height="22" rx="4" fill="#277a58"/>
+<text x="689.0" y="339.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">85</text>
+<rect x="722" y="324" width="58" height="22" rx="4" fill="#53957b"/>
+<text x="751.0" y="339.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">78</text>
+<rect x="784" y="324" width="58" height="22" rx="4" fill="#72a894"/>
+<text x="813.0" y="339.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">72</text>
+<rect x="846" y="324" width="58" height="22" rx="4" fill="#82b1a0"/>
+<text x="875.0" y="339.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">70</text>
+<text x="276.0" y="367.0" font-size="11.5" fill="#0f172a" text-anchor="end" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">DA, 4 starts · plane + 10 %</text>
+<rect x="288" y="350" width="58" height="22" rx="4" fill="#368364"/>
+<text x="317.0" y="365.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">82</text>
+<rect x="350" y="350" width="58" height="22" rx="4" fill="#448b6f"/>
+<text x="379.0" y="365.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">80</text>
+<rect x="412" y="350" width="58" height="22" rx="4" fill="#81b0a0"/>
+<text x="441.0" y="365.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">70</text>
+<rect x="474" y="350" width="58" height="22" rx="4" fill="#96beb1"/>
+<text x="503.0" y="365.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">67</text>
+<rect x="536" y="350" width="58" height="22" rx="4" fill="#b4d0c9"/>
+<text x="565.0" y="365.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">62</text>
+<rect x="598" y="350" width="58" height="22" rx="4" fill="#287a59"/>
+<text x="627.0" y="365.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">85</text>
+<rect x="660" y="350" width="58" height="22" rx="4" fill="#217653"/>
+<text x="689.0" y="365.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">86</text>
+<rect x="722" y="350" width="58" height="22" rx="4" fill="#5b9981"/>
+<text x="751.0" y="365.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">76</text>
+<rect x="784" y="350" width="58" height="22" rx="4" fill="#66a08a"/>
+<text x="813.0" y="365.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">75</text>
+<rect x="846" y="350" width="58" height="22" rx="4" fill="#82b1a1"/>
+<text x="875.0" y="365.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">70</text>
+<text x="276.0" y="393.0" font-size="11.5" fill="#0f172a" text-anchor="end" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">DA · plane + 20 %</text>
+<rect x="288" y="376" width="58" height="22" rx="4" fill="#318060"/>
+<text x="317.0" y="391.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">83</text>
+<rect x="350" y="376" width="58" height="22" rx="4" fill="#4e9177"/>
+<text x="379.0" y="391.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">78</text>
+<rect x="412" y="376" width="58" height="22" rx="4" fill="#7aac9a"/>
+<text x="441.0" y="391.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">71</text>
+<rect x="474" y="376" width="58" height="22" rx="4" fill="#81b0a0"/>
+<text x="503.0" y="391.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">70</text>
+<rect x="536" y="376" width="58" height="22" rx="4" fill="#accbc2"/>
+<text x="565.0" y="391.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">63</text>
+<rect x="598" y="376" width="58" height="22" rx="4" fill="#2c7d5d"/>
+<text x="627.0" y="391.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">84</text>
+<rect x="660" y="376" width="58" height="22" rx="4" fill="#18714c"/>
+<text x="689.0" y="391.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">87</text>
+<rect x="722" y="376" width="58" height="22" rx="4" fill="#53957b"/>
+<text x="751.0" y="391.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">78</text>
+<rect x="784" y="376" width="58" height="22" rx="4" fill="#6ba38f"/>
+<text x="813.0" y="391.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">74</text>
+<rect x="846" y="376" width="58" height="22" rx="4" fill="#8db8aa"/>
+<text x="875.0" y="391.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">68</text>
+<text x="276.0" y="419.0" font-size="11.5" fill="#0f172a" text-anchor="end" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">DA · ε-plane + 10 %</text>
+<rect x="288" y="402" width="58" height="22" rx="4" fill="#2e7e5e"/>
+<text x="317.0" y="417.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">84</text>
+<rect x="350" y="402" width="58" height="22" rx="4" fill="#4b9075"/>
+<text x="379.0" y="417.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">79</text>
+<rect x="412" y="402" width="58" height="22" rx="4" fill="#74a996"/>
+<text x="441.0" y="417.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">72</text>
+<rect x="474" y="402" width="58" height="22" rx="4" fill="#8db8aa"/>
+<text x="503.0" y="417.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">68</text>
+<rect x="536" y="402" width="58" height="22" rx="4" fill="#b6d1ca"/>
+<text x="565.0" y="417.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">61</text>
+<rect x="598" y="402" width="58" height="22" rx="4" fill="#247856"/>
+<text x="627.0" y="417.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">85</text>
+<rect x="660" y="402" width="58" height="22" rx="4" fill="#156f4a"/>
+<text x="689.0" y="417.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">88</text>
+<rect x="722" y="402" width="58" height="22" rx="4" fill="#609c85"/>
+<text x="751.0" y="417.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">76</text>
+<rect x="784" y="402" width="58" height="22" rx="4" fill="#6da490"/>
+<text x="813.0" y="417.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">73</text>
+<rect x="846" y="402" width="58" height="22" rx="4" fill="#89b6a6"/>
+<text x="875.0" y="417.0" font-size="10.5" fill="#0f172a" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">69</text>
+<text x="20.0" y="452.0" font-size="11" fill="#64748b" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">numbers in percent · one colour scale for the whole table: pale = 52%, strong = 88% · bold = best in its column</text>
+</svg>

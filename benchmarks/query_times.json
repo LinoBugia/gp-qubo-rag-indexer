@@ -1,0 +1,422 @@
+[
+ {
+  "encoder": "bge-m3",
+  "variant": "centroid",
+  "beam": 1,
+  "ms": 0.049,
+  "ms_min": 0.046
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "centroid",
+  "beam": 2,
+  "ms": 0.07,
+  "ms_min": 0.07
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "centroid",
+  "beam": 4,
+  "ms": 0.11,
+  "ms_min": 0.109
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "centroid+spill",
+  "beam": 1,
+  "ms": 0.058,
+  "ms_min": 0.055
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "centroid+spill",
+  "beam": 2,
+  "ms": 0.082,
+  "ms_min": 0.08
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "centroid+spill",
+  "beam": 4,
+  "ms": 0.132,
+  "ms_min": 0.13
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "default",
+  "beam": 1,
+  "ms": 0.056,
+  "ms_min": 0.054
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "default",
+  "beam": 2,
+  "ms": 0.083,
+  "ms_min": 0.082
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "default",
+  "beam": 4,
+  "ms": 0.126,
+  "ms_min": 0.125
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "eps",
+  "beam": 1,
+  "ms": 0.061,
+  "ms_min": 0.055
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "eps",
+  "beam": 2,
+  "ms": 0.091,
+  "ms_min": 0.081
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "eps",
+  "beam": 4,
+  "ms": 0.137,
+  "ms_min": 0.134
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "lloyd",
+  "beam": 1,
+  "ms": 0.056,
+  "ms_min": 0.053
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "lloyd",
+  "beam": 2,
+  "ms": 0.086,
+  "ms_min": 0.084
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "lloyd",
+  "beam": 4,
+  "ms": 0.134,
+  "ms_min": 0.131
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "lloyd-raw",
+  "beam": 1,
+  "ms": 0.066,
+  "ms_min": 0.065
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "lloyd-raw",
+  "beam": 2,
+  "ms": 0.093,
+  "ms_min": 0.09
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "lloyd-raw",
+  "beam": 4,
+  "ms": 0.138,
+  "ms_min": 0.135
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "mc4",
+  "beam": 1,
+  "ms": 0.055,
+  "ms_min": 0.052
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "mc4",
+  "beam": 2,
+  "ms": 0.078,
+  "ms_min": 0.076
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "mc4",
+  "beam": 4,
+  "ms": 0.127,
+  "ms_min": 0.123
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "plane",
+  "beam": 1,
+  "ms": 0.047,
+  "ms_min": 0.045
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "plane",
+  "beam": 2,
+  "ms": 0.071,
+  "ms_min": 0.07
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "plane",
+  "beam": 4,
+  "ms": 0.112,
+  "ms_min": 0.111
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "raw",
+  "beam": 1,
+  "ms": 0.068,
+  "ms_min": 0.065
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "raw",
+  "beam": 2,
+  "ms": 0.089,
+  "ms_min": 0.088
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "raw",
+  "beam": 4,
+  "ms": 0.133,
+  "ms_min": 0.128
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "spill0.2",
+  "beam": 1,
+  "ms": 0.063,
+  "ms_min": 0.061
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "spill0.2",
+  "beam": 2,
+  "ms": 0.092,
+  "ms_min": 0.09
+ },
+ {
+  "encoder": "bge-m3",
+  "variant": "spill0.2",
+  "beam": 4,
+  "ms": 0.144,
+  "ms_min": 0.144
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "centroid",
+  "beam": 1,
+  "ms": 0.07,
+  "ms_min": 0.068
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "centroid",
+  "beam": 2,
+  "ms": 0.111,
+  "ms_min": 0.108
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "centroid",
+  "beam": 4,
+  "ms": 0.188,
+  "ms_min": 0.187
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "centroid+spill",
+  "beam": 1,
+  "ms": 0.087,
+  "ms_min": 0.083
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "centroid+spill",
+  "beam": 2,
+  "ms": 0.128,
+  "ms_min": 0.125
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "centroid+spill",
+  "beam": 4,
+  "ms": 0.2,
+  "ms_min": 0.192
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "default",
+  "beam": 1,
+  "ms": 0.091,
+  "ms_min": 0.08
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "default",
+  "beam": 2,
+  "ms": 0.126,
+  "ms_min": 0.115
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "default",
+  "beam": 4,
+  "ms": 0.207,
+  "ms_min": 0.205
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "eps",
+  "beam": 1,
+  "ms": 0.086,
+  "ms_min": 0.077
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "eps",
+  "beam": 2,
+  "ms": 0.134,
+  "ms_min": 0.128
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "eps",
+  "beam": 4,
+  "ms": 0.214,
+  "ms_min": 0.193
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "lloyd",
+  "beam": 1,
+  "ms": 0.084,
+  "ms_min": 0.078
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "lloyd",
+  "beam": 2,
+  "ms": 0.127,
+  "ms_min": 0.126
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "lloyd",
+  "beam": 4,
+  "ms": 0.213,
+  "ms_min": 0.203
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "lloyd-raw",
+  "beam": 1,
+  "ms": 0.091,
+  "ms_min": 0.09
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "lloyd-raw",
+  "beam": 2,
+  "ms": 0.138,
+  "ms_min": 0.135
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "lloyd-raw",
+  "beam": 4,
+  "ms": 0.219,
+  "ms_min": 0.216
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "mc4",
+  "beam": 1,
+  "ms": 0.095,
+  "ms_min": 0.091
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "mc4",
+  "beam": 2,
+  "ms": 0.13,
+  "ms_min": 0.126
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "mc4",
+  "beam": 4,
+  "ms": 0.21,
+  "ms_min": 0.205
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "plane",
+  "beam": 1,
+  "ms": 0.073,
+  "ms_min": 0.067
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "plane",
+  "beam": 2,
+  "ms": 0.116,
+  "ms_min": 0.115
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "plane",
+  "beam": 4,
+  "ms": 0.188,
+  "ms_min": 0.185
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "raw",
+  "beam": 1,
+  "ms": 0.09,
+  "ms_min": 0.09
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "raw",
+  "beam": 2,
+  "ms": 0.128,
+  "ms_min": 0.126
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "raw",
+  "beam": 4,
+  "ms": 0.211,
+  "ms_min": 0.201
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "spill0.2",
+  "beam": 1,
+  "ms": 0.097,
+  "ms_min": 0.094
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "spill0.2",
+  "beam": 2,
+  "ms": 0.144,
+  "ms_min": 0.141
+ },
+ {
+  "encoder": "qwen3-4b",
+  "variant": "spill0.2",
+  "beam": 4,
+  "ms": 0.212,
+  "ms_min": 0.2
+ }
+]

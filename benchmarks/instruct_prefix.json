@@ -1,0 +1,26 @@
+[
+ {
+  "queries": "ohne Pr\u00e4fix",
+  "variant": "default",
+  "found@5": 0.7967,
+  "recall@5": 0.6993
+ },
+ {
+  "queries": "ohne Pr\u00e4fix",
+  "variant": "eps",
+  "found@5": 0.8167,
+  "recall@5": 0.6867
+ },
+ {
+  "queries": "mit Instruct-Pr\u00e4fix",
+  "variant": "default",
+  "found@5": 0.8467,
+  "recall@5": 0.7207
+ },
+ {
+  "queries": "mit Instruct-Pr\u00e4fix",
+  "variant": "eps",
+  "found@5": 0.8367,
+  "recall@5": 0.72
+ }
+]

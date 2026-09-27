@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="762" viewBox="0 0 940 762" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<rect width="940" height="762" rx="10" fill="#ffffff"/>
+<text x="20.0" y="30.0" font-size="16" fill="#0f172a" text-anchor="start" font-weight="650" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">Quality against work</text>
+<text x="20.0" y="50.0" font-size="11.5" fill="#64748b" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">4178 chunks, bge-m3, 300 questions · work = scalar products per query (descent + re-ranking), logarithmic</text>
+<text x="20.0" y="68.0" font-size="11.5" fill="#64748b" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">Up and to the left is better. Every curve is one index swept over its own accuracy knob — beam width for the tree, ef / nprobe for the baselines.</text>
+<line x1="74" y1="514.2" x2="694" y2="514.2" stroke="#cbd5e1" stroke-width="1"/>
+<text x="64.0" y="518.2" font-size="11" fill="#64748b" text-anchor="end" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">40%</text>
+<line x1="74" y1="442.5" x2="694" y2="442.5" stroke="#cbd5e1" stroke-width="1" opacity="0.45"/>
+<text x="64.0" y="446.5" font-size="11" fill="#64748b" text-anchor="end" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">50%</text>
+<line x1="74" y1="370.8" x2="694" y2="370.8" stroke="#cbd5e1" stroke-width="1"/>
+<text x="64.0" y="374.8" font-size="11" fill="#64748b" text-anchor="end" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">60%</text>
+<line x1="74" y1="299.1" x2="694" y2="299.1" stroke="#cbd5e1" stroke-width="1" opacity="0.45"/>
+<text x="64.0" y="303.1" font-size="11" fill="#64748b" text-anchor="end" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">70%</text>
+<line x1="74" y1="227.4" x2="694" y2="227.4" stroke="#cbd5e1" stroke-width="1"/>
+<text x="64.0" y="231.4" font-size="11" fill="#64748b" text-anchor="end" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">80%</text>
+<line x1="74" y1="155.7" x2="694" y2="155.7" stroke="#cbd5e1" stroke-width="1" opacity="0.45"/>
+<text x="64.0" y="159.7" font-size="11" fill="#64748b" text-anchor="end" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">90%</text>
+<line x1="74" y1="84.0" x2="694" y2="84.0" stroke="#cbd5e1" stroke-width="1"/>
+<text x="64.0" y="88.0" font-size="11" fill="#64748b" text-anchor="end" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">100%</text>
+<line x1="98.3" y1="84" x2="98.3" y2="550" stroke="#cbd5e1" stroke-width="1" opacity="0.45"/>
+<text x="98.3" y="568.0" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">30</text>
+<line x1="259.1" y1="84" x2="259.1" y2="550" stroke="#cbd5e1" stroke-width="1" opacity="0.45"/>
+<text x="259.1" y="568.0" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">100</text>
+<line x1="405.7" y1="84" x2="405.7" y2="550" stroke="#cbd5e1" stroke-width="1" opacity="0.45"/>
+<text x="405.7" y="568.0" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">300</text>
+<line x1="566.4" y1="84" x2="566.4" y2="550" stroke="#cbd5e1" stroke-width="1" opacity="0.45"/>
+<text x="566.4" y="568.0" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">1 000</text>
+<line x1="688.8" y1="84" x2="688.8" y2="550" stroke="#cbd5e1" stroke-width="1" opacity="0.45"/>
+<text x="688.8" y="568.0" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">2 500</text>
+<text x="384.0" y="590.0" font-size="11.5" fill="#64748b" text-anchor="middle" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">scalar products per query</text>
+<path d="M 226.3 323.9 L 318.1 228.8 L 409.3 165.3 L 501.8 128.4 L 589.6 108.4 L 679.3 99.8" fill="none" stroke="#b45309" stroke-width="1.7" stroke-linejoin="round" stroke-dasharray="6 3"/>
+<circle cx="226.3" cy="323.9" r="3" fill="#b45309"/>
+<circle cx="318.1" cy="228.8" r="3" fill="#b45309"/>
+<circle cx="409.3" cy="165.3" r="3" fill="#b45309"/>
+<circle cx="501.8" cy="128.4" r="3" fill="#b45309"/>
+<circle cx="589.6" cy="108.4" r="3" fill="#b45309"/>
+<circle cx="679.3" cy="99.8" r="3" fill="#b45309"/>
+<path d="M 113.9 524.2 L 201.3 394.6 L 285.7 279.5 L 369.7 192.0 L 452.8 141.4 L 535.6 118.9" fill="none" stroke="#0891b2" stroke-width="2.2" stroke-linejoin="round" stroke-dasharray="5 3"/>
+<circle cx="113.9" cy="524.2" r="3" fill="#0891b2"/>
+<circle cx="201.3" cy="394.6" r="3" fill="#0891b2"/>
+<circle cx="285.7" cy="279.5" r="3" fill="#0891b2"/>
+<circle cx="369.7" cy="192.0" r="3" fill="#0891b2"/>
+<circle cx="452.8" cy="141.4" r="3" fill="#0891b2"/>
+<circle cx="535.6" cy="118.9" r="3" fill="#0891b2"/>
+<path d="M 114.7 518.0 L 200.5 373.6 L 286.9 256.6 L 371.3 179.1 L 454.0 137.6 L 534.5 112.7" fill="none" stroke="#4f46e5" stroke-width="2.6" stroke-linejoin="round"/>
+<circle cx="114.7" cy="518.0" r="3" fill="#4f46e5"/>
+<circle cx="200.5" cy="373.6" r="3" fill="#4f46e5"/>
+<circle cx="286.9" cy="256.6" r="3" fill="#4f46e5"/>
+<circle cx="371.3" cy="179.1" r="3" fill="#4f46e5"/>
+<circle cx="454.0" cy="137.6" r="3" fill="#4f46e5"/>
+<circle cx="534.5" cy="112.7" r="3" fill="#4f46e5"/>
+<path d="M 254.9 341.6 L 270.4 250.8 L 288.3 189.6 L 298.3 168.6 L 308.3 155.2 L 348.0 117.9 L 401.2 106.0 L 482.5 102.2 L 548.3 101.2" fill="none" stroke="#15803d" stroke-width="2.6" stroke-linejoin="round"/>
+<circle cx="254.9" cy="341.6" r="3" fill="#15803d"/>
+<circle cx="270.4" cy="250.8" r="3" fill="#15803d"/>
+<circle cx="288.3" cy="189.6" r="3" fill="#15803d"/>
+<circle cx="298.3" cy="168.6" r="3" fill="#15803d"/>
+<circle cx="308.3" cy="155.2" r="3" fill="#15803d"/>
+<circle cx="348.0" cy="117.9" r="3" fill="#15803d"/>
+<circle cx="401.2" cy="106.0" r="3" fill="#15803d"/>
+<circle cx="482.5" cy="102.2" r="3" fill="#15803d"/>
+<circle cx="548.3" cy="101.2" r="3" fill="#15803d"/>
+<line x1="708" y1="88" x2="734" y2="88" stroke="#15803d" stroke-width="2.6"/>
+<text x="740.0" y="92.0" font-size="11.5" fill="#0f172a" text-anchor="start" font-weight="600" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">HNSW (M=16)</text>
+<text x="740.0" y="107.0" font-size="10.5" fill="#64748b" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">the winner — hnswlib, ef 5…100</text>
+<line x1="708" y1="125" x2="734" y2="125" stroke="#4f46e5" stroke-width="2.6"/>
+<text x="740.0" y="129.0" font-size="11.5" fill="#0f172a" text-anchor="start" font-weight="600" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">this index · Lloyd → DA</text>
+<text x="740.0" y="144.0" font-size="10.5" fill="#64748b" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">defaults: --objective knn, beam 1…32</text>
+<line x1="708" y1="162" x2="734" y2="162" stroke="#0891b2" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="740.0" y="166.0" font-size="11.5" fill="#0f172a" text-anchor="start" font-weight="600" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">this index · Lloyd only</text>
+<text x="740.0" y="181.0" font-size="10.5" fill="#64748b" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">--no-anneal, same tree shape</text>
+<line x1="708" y1="199" x2="734" y2="199" stroke="#b45309" stroke-width="1.7" stroke-dasharray="6 3"/>
+<text x="740.0" y="203.0" font-size="11.5" fill="#0f172a" text-anchor="start" font-weight="600" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">FAISS IVF (nlist=64)</text>
+<text x="740.0" y="218.0" font-size="10.5" fill="#64748b" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">nprobe 1…32</text>
+<text x="20.0" y="604.0" font-size="11" fill="#64748b" text-anchor="start" font-weight="600" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">recall@5</text>
+<text x="120.0" y="604.0" font-size="11" fill="#64748b" text-anchor="start" font-weight="600" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">HNSW</text>
+<text x="220.0" y="604.0" font-size="11" fill="#64748b" text-anchor="start" font-weight="600" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">Lloyd→DA</text>
+<text x="320.0" y="604.0" font-size="11" fill="#64748b" text-anchor="start" font-weight="600" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">Lloyd</text>
+<text x="420.0" y="604.0" font-size="11" fill="#64748b" text-anchor="start" font-weight="600" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">FAISS IVF</text>
+<text x="20.0" y="621.0" font-size="11" fill="#0f172a" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">90 %</text>
+<text x="120.0" y="621.0" font-size="11" fill="#0f172a" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">145</text>
+<text x="220.0" y="621.0" font-size="11" fill="#0f172a" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">431</text>
+<text x="320.0" y="621.0" font-size="11" fill="#0f172a" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">427</text>
+<text x="420.0" y="621.0" font-size="11" fill="#0f172a" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">616</text>
+<text x="20.0" y="638.0" font-size="11" fill="#0f172a" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">95 %</text>
+<text x="120.0" y="638.0" font-size="11" fill="#0f172a" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">195</text>
+<text x="220.0" y="638.0" font-size="11" fill="#0f172a" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">787</text>
+<text x="320.0" y="638.0" font-size="11" fill="#0f172a" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">794</text>
+<text x="420.0" y="638.0" font-size="11" fill="#0f172a" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">1 190</text>
+<text x="20.0" y="655.0" font-size="11" fill="#0f172a" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">97 %</text>
+<text x="120.0" y="655.0" font-size="11" fill="#0f172a" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">533</text>
+<text x="220.0" y="655.0" font-size="11" fill="#0f172a" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">not reached</text>
+<text x="320.0" y="655.0" font-size="11" fill="#0f172a" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">not reached</text>
+<text x="420.0" y="655.0" font-size="11" fill="#0f172a" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">2 328</text>
+<text x="534.0" y="604.0" font-size="10.5" fill="#64748b" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">Scalar products of the cheapest measured setting that</text>
+<text x="534.0" y="619.0" font-size="10.5" fill="#64748b" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">reaches that recall — no interpolation, because beam, ef</text>
+<text x="534.0" y="634.0" font-size="10.5" fill="#64748b" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">and nprobe are discrete knobs.</text>
+<text x="20.0" y="678.0" font-size="11.5" fill="#64748b" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">Lloyd is the cheap floor: at equal work it trails Lloyd→DA by 0.5–3.2 points here, and builds the tree in 14 s, not 223 s.</text>
+<text x="20.0" y="696.0" font-size="11.5" fill="#64748b" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">Above 96 % it stops reaching the target at all with one mean per node. So the annealer does buy something — a couple of points,</text>
+<text x="20.0" y="714.0" font-size="11.5" fill="#64748b" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">and the last stretch of the curve — for about ten times the build time. That is the whole trade, stated as a number.</text>
+<text x="20.0" y="732.0" font-size="11.5" fill="#64748b" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">Neither comes near HNSW: 2.8× the work at 90 %, 3.8× at 95 %, 4.0× at 97 %. What the tree holds is the left edge — below ~100</text>
+<text x="20.0" y="750.0" font-size="11.5" fill="#64748b" text-anchor="start" font-weight="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="1.0">scalar products a graph has not finished navigating yet.</text>
+</svg>
