@@ -13,7 +13,7 @@ returns the paths of the best chunks. It imports nothing but numpy, holds no
 graph in memory, and runs **entirely locally**: no server, no daemon, nothing
 to keep warm, so it can be dropped into a pipeline or handed to an agent as
 it is. What goes in is the output of
-**[text-embedder](../text-embedder/)**, and that handover is a written
+**[text-embedder](https://github.com/LinoBugia/text-embedder)**, and that handover is a written
 contract — [`RAG_INDEX_CONTRACT.md`](RAG_INDEX_CONTRACT.md), the same file in
 both repositories.
 
@@ -90,7 +90,7 @@ different model.
 
 | Command | What it does |
 |---|---|
-| `python3 rag_indexer.py <run-dir> -o <out>` | Build an index from a [text-embedder](../text-embedder/) run folder. `--no-anneal` for Lloyd only, `-g` for the leaf size, `--objective` for what the bisection minimises — every flag in [configuration.md](docs/configuration.md) |
+| `python3 rag_indexer.py <run-dir> -o <out>` | Build an index from a [text-embedder](https://github.com/LinoBugia/text-embedder/) run folder. `--no-anneal` for Lloyd only, `-g` for the leaf size, `--objective` for what the bisection minimises — every flag in [configuration.md](docs/configuration.md) |
 | `python3 <index>/query.py -k 5` | Query a finished index. `--beam` trades work for recall, `--json` returns scores |
 | `python3 rag_gui.py` | The GUI: pipeline dialog, partition map, live queries |
 | `python3 benchmarks/run_matrix.py --kbs …` | Rebuild the benchmark matrix; `evaluate_full.py` and `baselines.py` produce the tables |
@@ -126,7 +126,7 @@ come from.
 | [docs/benchmarks.md](docs/benchmarks.md) | The full measurement chapter: HNSW and FAISS IVF, the variant matrix, scaling, query cost, and the measurement traps |
 | [docs/knowledge-bases.md](docs/knowledge-bases.md) | What goes in, which contract clauses are used, and the reference bases |
 | [docs/gram-matrix.md](docs/gram-matrix.md) | The sparse Gram matrix builder underneath: CLI, Python API, storage format |
-| [RAG_INDEX_CONTRACT.md](RAG_INDEX_CONTRACT.md) | Normative input spec — shared verbatim with [text-embedder](../text-embedder/) |
+| [RAG_INDEX_CONTRACT.md](RAG_INDEX_CONTRACT.md) | Normative input spec — shared verbatim with [text-embedder](https://github.com/LinoBugia/text-embedder/) |
 
 ## Project structure
 
