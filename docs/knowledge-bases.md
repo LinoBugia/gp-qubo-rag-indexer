@@ -6,7 +6,7 @@ relies on, and the reference bases every measurement is made on.
 ---
 
 This indexer does not chunk or embed. It consumes finished runs of the
-companion project **[text-embedder](../../text-embedder/)**, and the handover is
+companion project **[text-embedder](https://github.com/LinoBugia/text-embedder)**, and the handover is
 specified: [`RAG_INDEX_CONTRACT.md`](../RAG_INDEX_CONTRACT.md) in this repo is a
 **verbatim copy** of the producer's contract — same file on both sides, so
 neither can drift without the other noticing.

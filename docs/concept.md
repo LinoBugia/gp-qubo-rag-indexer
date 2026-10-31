@@ -70,11 +70,11 @@ each level is actually worth.
 
 ## Related projects
 
-- **[text-embedder](../../text-embedder/)** — produces the input run folders
+- **[text-embedder](https://github.com/LinoBugia/text-embedder)** — produces the input run folders
   (chunking + embeddings via Ollama or Gemini API). Its output format
   (`specs.json` + `chunks.jsonl` + `embeddings.jsonl`) is the contract
   between the two projects.
-- **[annealing-qubo-optimizer](../../annealing-qubo-optimizer/)** — the DA
+- **[annealing-qubo-optimizer](https://github.com/LinoBugia/annealing-qubo-optimizer)** — the DA
   backend used by default (`--solver fast`), expected at
   `../annealing-qubo-optimizer/Code`. A heuristic batched NumPy annealer
   with no optimality guarantee: the QUBO goes in as a matrix `(A, b, c)`,
@@ -82,7 +82,7 @@ each level is actually worth.
   Its README carries the cooling contract (`da_gp` slots, calibration,
   the three exploration controls) and the performance numbers this
   project's `MC_TARGET_MCN` cap is derived from.
-- **[annealing-cop-approximator](../../annealing-cop-approximator)** — the original dict-based reference
+- **[annealing-cop-approximator](https://github.com/LinoBugia/annealing-cop-approximator)** — the original dict-based reference
   implementation (`pbf_min_solver`), expected at
   `../annealing-cop-approximator/Code`. Only used with `--solver reference`,
   and only to cross-check: both paths encode the same energy and agree to
